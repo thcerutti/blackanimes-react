@@ -1,0 +1,39 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "nome": "Naruto",
+      "genero": "Ação",
+      "ano": 2001,
+      "capa": "https://image.tmdb.org/t/p/original/9ptbVZpKNy5NY9D4zq4KGiYWRQY.jpg",
+      "descricao": "Naruto Uzumaki, um adolescente ninja travesso, luta enquanto busca reconhecimento e sonha em se tornar o Hokage, o líder da vila e o ninja mais forte.",
+      "trailer": "https://www.youtube.com/watch?v=-G9BqkgZXRA",
+      "episodios": [
+        {
+          "id": 1,
+          "nome": "Episódio 1",
+          "temporada": 1,
+          "link": "https://drive.google.com/file/d/1RQ5XIfGbUz4_3U_ZP0c9PCQTu6CgPQmz/preview"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "nome": "Dragon Ball",
+      "genero": "Ação",
+      "ano": 1986,
+      "capa": "https://image.tmdb.org/t/p/original/tZ0jXOeYBWPZ0OWzUhTlYvMF7YR.jpg",
+      "descricao": "Há muito tempo nas montanhas, um mestre de luta conhecido como Son Gohan descobriu um garoto estranho a quem ele chamou de Son Goku. Gohan o criou e treinou Goku em artes marciais até morrer. O jovem e muito forte garoto estava por conta própria, mas se virou facilmente. Então, um dia, Goku conheceu uma adolescente chamada Bulma, cuja busca pelas místicas Esferas do Dragão a levou até a casa de Goku. Juntos, eles partiram para encontrar todas as sete e realizar o desejo dela.",
+      "trailer": "https://www.youtube.com/watch?v=gqIEgmqljM8"
+    },
+    {
+      "id": 3,
+      "nome": "One Piece",
+      "genero": "Ação",
+      "ano": 1999,
+      "capa": "https://image.tmdb.org/t/p/original/gJI77i79KnRuc9mGPKADPZWAE8O.jpg",
+      "descricao": "Anos atrás, o temível Rei dos Piratas, Gol D. Roger, foi executado deixando para trás um enorme tesouro e o famoso 'One Piece'. Quem reivindicar o 'One Piece' será nomeado o novo Rei dos Piratas.\n\nMonkey D. Luffy, um garoto que consumiu uma 'Fruta do Diabo', decide seguir os passos de seu ídolo, o pirata Shanks, e encontrar o One Piece. Claro, ajuda o fato de que seu corpo tem as propriedades da borracha e que ele está cercado por um grupo de lutadores e ladrões habilidosos para ajudá-lo ao longo do caminho.\n\nLuffy fará de tudo para conseguir o One Piece e se tornar o Rei dos Piratas!",
+      "trailer": "https://www.youtube.com/watch?v=TApFCt9m0ug"
+    }
+  ]
+}
