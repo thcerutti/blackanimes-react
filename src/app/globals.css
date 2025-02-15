@@ -19,3 +19,12 @@ body {
   background-color: var(--background);
   color: var(--text-primary);
 }
+
+a {
+  color: var(--text-primary);
+  text-decoration: none;
+
+  &&:hover {
+    color: var(--hover);
+  }
+}
