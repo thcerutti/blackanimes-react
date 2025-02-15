@@ -37,6 +37,10 @@ Abra [http://localhost:3000](http://localhost:3000) com seu navegador para ver o
 
 Você pode começar a editar a página modificando `app/page.js`. A página é atualizada automaticamente à medida que você edita o arquivo.
 
+## Recursos
+
+- Ícones: [React-icons/Font Awesome 6](https://react-icons.github.io/react-icons/icons/fa6/)
+
 ## Saiba Mais
 
 Para saber mais sobre o Next.js, confira os seguintes recursos:
