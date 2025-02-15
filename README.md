@@ -1,6 +1,6 @@
 ## Objetivo
 
-O objetuivo deste projeto é servir como um sandbox de acompanhamento do mentorado Carlos. Ele servirá de guia para o roadmap de estudos deste trimestre e para a conquista de insígnias do educando.
+O objetivo deste projeto é servir como um sandbox de acompanhamento do mentorado [@HenryMiles02](https://github.com/HenryMiles02) para a ONG [@paq-devs](https://github.com/paq-devs). Ele servirá de guia para o roadmap de estudos deste trimestre e para a conquista de insígnias do educando.
 
 O detalhamento do plano de estudos pode ser encontrado [aqui](docs/plano-estudos.md).
 
