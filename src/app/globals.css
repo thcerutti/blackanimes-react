@@ -1,4 +1,21 @@
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #FFF;
+  --font-color: #000;
+
+  --background: #121212;
+  --secondary-bg: #1E1E1E;
+  --accent: #E63946;
+  --text-primary: #EAEAEA;
+  --text-secondary: #A1A1A1;
+  --border: #272727;
+  --hover: #F4A261;
+  --success: #2A9D8F;
+  --warning: #F77F00;
+}
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: var(--background);
+  color: var(--text-primary);
 }
