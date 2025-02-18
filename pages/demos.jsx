@@ -1,36 +1,33 @@
 import AnimeCard from "@/app/components/AnimeCard";
 import AnimeDetails from "@/app/components/AnimeDetails";
-import db from "@/app/db.json";
+import { useEffect, useState } from "react";
 
 const DemosComponentes = () => {
+  const [animes, setAnimes] = useState([]);
+
+  useEffect(() => {
+    fetch("/api/animes")
+      .then((response) => response.json())
+      .then((data) => setAnimes(data));
+  }, []);
+
   return (
     <>
       <div
+        key="animes"
         style={{
           display: "flex",
           gap: "1rem",
           margin: "1rem",
         }}
       >
-        <AnimeCard
-          titulo={db.animes[0].nome}
-          imagem={db.animes[0].capa}
-          anoLancamento={db.animes[0].ano}
-        />
-        <AnimeCard
-          titulo={db.animes[1].nome}
-          imagem={db.animes[1].capa}
-          anoLancamento={db.animes[1].ano}
-        />
-        <AnimeCard
-          titulo={db.animes[2].nome}
-          imagem={db.animes[2].capa}
-          anoLancamento={db.animes[2].ano}
-        />
+        {animes.map((anime) => {
+          return <AnimeCard anime={anime} key={anime.id} />;
+        })}
       </div>
       <hr />
-      <div>
-        <AnimeDetails anime={db.animes[0]} />
+      <div key="anime-details">
+        <AnimeDetails anime={animes[0]} />
       </div>
     </>
   );
