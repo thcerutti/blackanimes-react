@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Objetivo
 
-## Getting Started
+O objetivo deste projeto reconstruir o projeto [BlackAnimes](https://github.com/HenryMiles02/blackanimes) em React para desenvolver habilidades de dev front-end do educando [@HenryMiles02](https://github.com/HenryMiles02), da ONG [@paq-devs](https://github.com/paq-devs).
 
-First, run the development server:
+O detalhamento do plano de estudos pode ser encontrado [aqui](docs/plano-estudos.md).
+
+## Sobre o projeto
+
+Este é um projeto [Next.js](https://nextjs.org) inicializado com [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+Next.js é um framework para React que facilita a criação de aplicações web. Ele oferece várias funcionalidades prontas, como renderização no lado do servidor (SSR), geração de sites estáticos (SSG) e suporte a rotas dinâmicas.
+
+### Benefícios do uso do Next.js:
+
+- **Desempenho Melhorado**: Com SSR e SSG, as páginas carregam mais rápido, melhorando a experiência do usuário.
+- **Facilidade de Uso**: Next.js simplifica a configuração e o desenvolvimento de projetos React.
+- **SEO Amigável**: A renderização no servidor ajuda os motores de busca a indexarem melhor o conteúdo do site.
+- **Comunidade Ativa**: Há muitos recursos e suporte disponíveis, facilitando a resolução de problemas e a aprendizagem.
+
+Esses benefícios tornam o Next.js uma ótima escolha para quem está começando a programar e quer criar aplicações web modernas e eficientes.
+
+## Começando
+
+Primeiro, instale as dependências do projeto:
+
+```bash
+npm install
+```
+
+Depois, execute o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra a URL [http://localhost:3000](http://localhost:3000) no navegador para ver o resultado.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Você pode começar a editar a página modificando `app/page.js`. A página é atualizada automaticamente à medida que você edita o arquivo.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Recursos
 
-## Learn More
+- Ícones: [React-icons/Font Awesome 6](https://react-icons.github.io/react-icons/icons/fa6/)
 
-To learn more about Next.js, take a look at the following resources:
+## Saiba Mais
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Para saber mais sobre o Next.js, confira os seguintes recursos:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Documentação do Next.js](https://nextjs.org/docs) - aprenda sobre as funcionalidades e API do Next.js.
+- [Aprenda Next.js](https://nextjs.org/learn) - um tutorial interativo de Next.js.
 
-## Deploy on Vercel
+Você pode conferir o [repositório do Next.js no GitHub](https://github.com/vercel/next.js) - seu feedback e contribuições são bem-vindos!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy na Vercel
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A maneira mais fácil de fazer o deploy da sua aplicação Next.js é usar a [Plataforma Vercel](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) dos criadores do Next.js.
+
+Confira nossa [documentação de deploy do Next.js](https://nextjs.org/docs/app/building-your-application/deploying) para mais detalhes.
